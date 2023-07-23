@@ -2,7 +2,7 @@
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
 using NathansCRUDWebsite.Models;
-using MySql.Data.MySqlClient;
+
 
 namespace NathansCRUDWebsite
 {
