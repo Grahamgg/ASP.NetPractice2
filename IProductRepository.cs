@@ -3,8 +3,7 @@ using NathansCRUDWebsite.Models;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-
-
+using Testing.Models;
 
 namespace NathansCRUDWebsite
 {
@@ -12,5 +11,14 @@ namespace NathansCRUDWebsite
     {
         public IEnumerable<Product> GetAllProducts();
         public Product GetProduct(int id);
+        public void UpdateProduct(Product product);
+
+        public void InsertProduct(Product productToInsert);
+
+        public IEnumerable<Category> GetCategories();
+
+        public Product AssignCategory();
+
+        public void DeleteProduct(Product product);
     }
 }
