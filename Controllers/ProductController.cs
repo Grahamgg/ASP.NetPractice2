@@ -39,7 +39,7 @@ namespace NathansCRUDWebsite.Controllers
             return View(prod);
         }
 
-       //Added the missing line that caused the product update error.
+       //Added the missing line that caused the product update error to appear.
         public IActionResult UpdateProductToDatabase(Product productToUpdate)
         {
             repo.UpdateProduct(productToUpdate);  
